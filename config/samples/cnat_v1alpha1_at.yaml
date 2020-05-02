@@ -1,0 +1,9 @@
+apiVersion: cnat.lcostea.io/v1alpha1
+kind: At
+metadata:
+  labels:
+    controller-tools.k8s.io: "0.1.0"
+  name: example-at
+spec:
+  schedule: "2020-05-02T15:00:00Z"
+  command: "echo YAY"
